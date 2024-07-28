@@ -1,0 +1,400 @@
+Ward
+wnumber     wname	location	beds    telephone
+2001	"Orthopaedic"	"E Block"	10	7711
+2002	"Cardiology"	"A Block"	20	7712
+2003	"Neurology"	"B Block"	10	7713
+2004	"Pediatrics"	"C Block"	5	7714
+2005	"Geriatrics"	"D Block"	10	7715
+2006	"Oncology"	"E Block"	10	7716
+2007	"Psychiatry"	"F Block"	5	7717
+2008	"Surgery"	"A Block"	25	7718
+2009	"Maternity"	"B Block"	10	7719
+2010	"Intensive Care""C Block"	40	7720
+2011	"Emergency"	"D Block"	90	7721
+2012	"ENT"	        "E Block"	5	7722
+2013	"Urology"	"F Block"	5	7723
+2014	"Gynecology"	"A Block"	5	7724
+2015	"Dermatology"	"B Block"	5	7725
+2016	"Respiratory"	"C Block"	5	7726
+2017	"Ophthalmology"	"D Block"	5	7727
+2018 "Out Patient Clinic""A Block"	15	7728
+----------------------------------------------------
+Staff
+snumber   sfirstname ssecondname   saddress	sphoneno	   dob            sex    NIN	contractID
+10001	"Johnathan"	"Wick"	"1190 Fox St"	32178367	"1985-01-15"	"Male"	12301	1001
+10002	"Jeda"	      "Pinkett"	"456 Elve St"	32178343	"1990-03-22"	"Female"12302	1002
+10003	"Mitchel"	"Faroe"	"991 Blue St"	32178390	"1982-07-10"	"Male"	1230003	1003
+10004	"Emilia"	"Blunt"	"612 Frank St"	32178378	"1995-05-18"	"Female"12304	1004
+10005	"Dave"	       "White"	"891 Green St"	32178332	"1988-11-30"	"Male"	12305	1005
+10006	"Diana"	         "Lei"	"432 Faroe Rd"	32178389	"1992-09-14"	"Female"12306	1006
+10007	"Bob"	        "Vance"	"8971 Hank St"	32178310	"1979-04-07"	"Male"	12307	1007
+10008	"Martina"    "Whitable"	"1879 Spruce St"3278398		"1983-12-25"	"Female"12308	1008
+10009	"Will"	        "Ferrel""651 Greenwood St"32178321	"1998-02-03"	"Male"	12309	1009
+10010	"Jennine"	"Fox"	"091 Pequoia St"32178376	"1994-06-12"	"Female"12091	1010
+10011	"Dan"         "Hathaway""671 Kaizer St"	32178309	"1981-08-22"	"Male"	1211	1011
+10012	"Kathie"	"George""901 Vine St"	32178398	"1993-10-04"	"Female"21012	1012
+10013	"Gregory"	"Lewis"	"234 Pirch St"	30170987	"1997-03-15"	"Male"	123013	1013
+10014	"Nina"	      "William"	"765 Moth St"	301760		"1987-05-28"	"Female"123014	1014
+10015	"Mark"	        "Black"	"235 Main St"	30176098	"1991-09-06"	"Male"	123015	1015
+10016	"Healy"	       "Thomas"	"9001 Avenue St"3017097		"1984-12-17"	"Female"123016	1016
+10017	"Sam"	     "Gonzalez"	"345 Mayfair St"3017431		"2002-01-28"	"Male"	123017	1017
+10018	"Selena"	"Walker""090 High St"	30176376	"1986-02-10"	"Female"120018	1018
+10019	"Matthew"	"Hopper""234 Down St"	3017609		"1999-04-20"	"Male"	1230019	1019
+10020	"Christina"	"Harris""543 Cedar St"	3761098		"1992-06-02"	"Female"1230020	1020
+10021	"Kevin"	         "Vance	"765 Cedar St"	30176987	"1980-10-09"	"Male"	1230021	1021
+10022	"Nathie"	"Bough"	"9871 Pine St"	3017210		"1993-12-12"	"Female"1230022	1022
+10023	"Michael"	"Scarn"	"433 Elm St"	3335098		"1997-08-05"	"Male"	1230023	1023
+10024	"Kelly"		"King"	"890 Cedar St"	33354321	"1989-11-19"	"Female"1230024	1024
+10025	"Will"		"Wright""567 Sequoia St"33339876	"1995-01-07"	"Male"	1230025	1025
+10026	"Candice"	"Howard""1203 Cedar St"	33352109	"1982-03-29"	"Female"1230026	1026
+10027	"Haaland"	"Garfield""8901 Oak St"	33354098	"1998-07-14"	"Male"	1230027	1027
+10028	"Patricia"	"Bullock""7635 Birch St"3335987		"1984-09-01"	"Female"1230028	1028
+10029	"Staurt"	"Broad"	"0991 Mayfair St"33353210	"1996-05-23"	"Male"	1230029	1029
+10030	"Mikasa"	"Anderson""0901 Kilm St"33331098	"1987-12-30"	"Female"1230030	1030
+10031	"Dave"		"Halpert""811 Violin St"3335876		"1991-04-11"	"Male"	1230031	1031
+10032	"Pamela"	"Shrute""917 Cedar St"	3332109		"1983-06-25"	"Female"1230032	1032
+10033	"Cetha"		"White"	"3901 Young St"	3331098		"1999-02-18"	"Male"	1230033	1033
+10034	"Vanna"		"Creed"	"1273 Old St"	3330987		"1990-08-03"	"Female"1230034	1034
+10035	"Stevie"	"Lewis"	"881 John St"	3333210		"2001-11-14"	"Male"	1230035	1035
+----------------------------------------------------
+Contract
+cid	positionheld	salary  scale 	ctype       hours/week  wardNumber
+1001 "Medical Director"	950000	8	"Permanent"	20	
+1002	"Charge Nurse"	40000	3	"Permanent"	40	2001
+1003	"Nurse"		25000	3	"Permanent"	30	2001
+1004	"Charge Nurse"	40000	3	"Permanent"	40	2002
+1005	"Charge Nurse"	60000	2	"Permanent"	35	2003
+1006	"Charge Nurse"	30000	2	"Permanent"	30	2004
+1007	"Charge Nurse"	50000	5	"Permanent"	40	2005
+1008	"Doctor"	85000	7	"Permanent"	40	2008
+1009	"Janitor"	26000	3	"Permanent"	30	2010
+1010	"Charge Nurse"	72000	6	"Permanent"	40	2006
+1011	"Charge Nurse"	62000	5	"Permanent"	35	2007
+1012 "Personal Officer"	82000	7	"Permanent"	30	
+1013	"Charge Nurse"	56000	6	"Temporary"	32	2008
+1014	"Consultant"	82000	7	"Temporary"	38	
+1015	"Janitor"	25500	3	"Temporary"	25	2018
+1016	"Charge Nurse"	71000	6	"Temporary"	37	2009
+1017	"Senior Nurse"	61000	5	"Temporary"	33	2018
+1018	"Doctor"	30500	3	"Temporary"	28	2018
+1019	"Charge Nurse"	53000	6	"Permanent"	38	2010
+1020	"Doctor"	78000	7	"Permanent"	42	2008
+1021	"Janitor"	24500	3	"Permanent"	32	2008
+1022	"Charge Nurse"	69000	6	"Permanent"	45	2011
+1023	"Senior Nurse"	59000	5	"Permanent"	37	2011
+1024	"Receptionist"	29500	3	"Permanent"	29	2011
+1025	"Charge Nurse"	57000	6	"Temporary"	35	2012
+1026	"Charge Nurse"	54000	6	"Permanent"	40	2013
+1027	"Doctor"	79000	7	"Permanent"	40	2014
+1028	"Charge Nurse"	25500	3	"Permanent"	30	2014
+1029	"Consultant"	69000	6	"Permanent"	40	
+1030	"Charge Nurse"	61000	5	"Permanent"	35	2015
+1031	"Doctor"	31000	3	"Permanent"	30	2016
+1032	"Charge Nurse"	58000	6	"Temporary"	38	2016
+1033	"Charge Nurse"	81000	7	"Temporary"	36	2017
+1034	"Janitor"	26500	3	"Temporary"	28	2001
+1035	"Charge Nurse"	72000	6	"Temporary"	28	2018
+----------------------------------------------------
+Qualification
+qid	qdate		  type				institution	staffNumber
+6001	"2005-05-15""Bachelor of Science in Nursing""Oxford University"	10001
+6002	"2008-09-22"	"Master of Medicine"	"Harvard College"	10001
+6003	"2002-03-10"	"Bachelor of Nursing"	"Edward Medical School"	10002
+6004	"2010-07-05"	"Doctor of Pharmacy"	"Oxford University"	10001
+6005	"2013-11-30"	"Bachelor of Medicine"	"Stanford College"	10003
+6006	"2007-06-18"	"Master of Nursing"	"Yale School"		10002
+6007	"2003-08-25""Bachelor of Science in Medicine""Harvard University"10004
+6008	"2009-01-14"	"Doctor of Nursing Practice""Princeton College"	10005
+6009	"2006-12-03" "Bachelor of Pharmacy"	"NY School"		10007
+6010	"2011-04-12"  "Master of Science in Nursing""Texas University"	10006
+6011	"2004-10-20"	"Bachelor of Medicine"	"Illionis College"	10010
+6012	"2012-02-27"	"MBBS"			"LUMS University"	10008
+6013	"2014-05-08""Bachelor of Science in Cardiaology""Cambridge School"10012
+6014	"2016-07-16"	"Master of Cardiology"	"Colombia College"	10012
+6015	"2002-09-09"	"Bachelor of Medicine"	"Cornell University"	10011
+6016	"2010-11-01"	"Doctor of Medicine"	"Zurich University"	10013
+6017	"2013-01-22"	"Bachelor of MBBS"	"UCL School"		10014
+6018	"2007-03-29"	"Master of Medicine"	"Carneige College"	10014
+6019	"2010-05-14"	"Bachelor of Pharmacy"	"Chicago University"	10016
+6020	"2009-08-07"	"Doctor of Pharmacy"	"Duke College"		10017
+6021	"2006-10-25""Bachelor of Science in Medicine""Finnish School"	10018
+6022	"2011-12-19"	"Master of Nursing"	"Harvard University"	10019
+6023	"2005-02-11"	"Bachelor of Medicine"	"Michigan College"	10020
+6024	"2012-06-30"	"Doctor of Medicine"	"St Peter School"	10023
+6025	"2014-08-03"	"Bachelor of Nursing"	"Harvard University"	10022
+6026	"2008-10-17"	"Master of Pharmacy"	"Allied School"		10026
+6027	"2002-12-04"	"Bachelor of Medicine"	"Cambridge College"	10025
+6028	"2010-02-14""Doctor of Nursing Practice""Michigan University"	10028
+6029	"2007-04-27"	"Bachelor of Pharmacy"	"St Peter School"	10030
+6030	"2013-07-09""Master of Science in Nursing"	"MNO College"	10032
+6031	"2004-09-18"	"Bachelor of Medicine"	"Harvard University"	10031
+6032	"2011-11-23"	"Doctor of Medicine"	"Cambridge School"	10031
+6033	"2006-01-30""Bachelor of Science in Nursing""EFG College"	10033
+6034	"2014-03-05"	"Master of Pharmacy"	"Yale University"	10035
+6035	"2008-05-13"	"Bachelor of Medicine"	"Cambridge School"	10035
+6036	"2002-07-21"	"Bachelor of IT"	"PGS College"		10029
+6037	"2015-09-28""PHD of Medical Practices"	"Yale University"	10001
+----------------------------------------------------
+WorkExperience
+workId	organizationName	position	startDate	  finishDate	staffNumber
+6101	"Texas Hospital"	"Doctor"	"2010-05-15"	"2012-09-22"	10001
+6102	"Delta Medical Center"	"Doctor"	"2008-09-22"	"2010-03-10"	10002
+6103	"Aplha Nursing Home "	"Nurse"		"2002-03-10"	"2006-07-05"	10003
+6104	"Healthy Life Hospital"	"Nurse"		"2010-07-05"	"2013-11-30"	10004
+6105	"Texas Hospital"	"Nurse"		"2013-11-30"	"2015-05-15"	10005
+6106	"Medicare Center"	"Nurse"		"2007-06-18"	"2011-09-22"	10007
+6107	"Medi Clinic"		"Director"	"2012-08-25"	"2018-01-14"	10001
+6108	"Healthy Nursing"	"Nurse"		"2009-01-14"	"2014-12-03"	10012
+6109	"Healthy Nursing"	"Nurse"		"2006-12-03"	"2010-04-12"	10010
+6110	"Hospital Illoinis"	"Doctor"	"2011-04-12"	"2014-10-20"	10010
+6111	"Medical Kingdom"	"Nurse"		"2004-10-20"	"2008-02-27"	10011
+6112	"Howard Clinic"		"Doctor"	"2012-02-27"	"2015-05-08"	10008
+6113	"Medical Kingdom"	"Nurse"		"2008-07-16"	"2012-09-09"	10016
+6114	"Howard Clinic"		"Nurse"		"2002-09-09"	"2006-11-01"	10014
+6115	"Doctor Hospital"	"Doctor"	"2005-11-01"	"2007-01-22"	10012
+6116	"Medical Kingdom"	"Doctor"	"2008-03-15"	"2017-09-28"	10012
+6117	"Alonso Clinic"		"Nurse"		"2009-05-28"	"2012-12-09"	10017
+6118	"Hospital Rivera"	"Doctor"	"2016-02-14"	"2019-11-05"	10018
+6119	"Medical Kingdom"	"Nurse"		"2007-08-10"	"2011-07-16"	10019
+6120	"Doctor Hospital"	"Nurse"		"2015-06-02"	"2018-08-19"	10023
+----------------------------------------------------
+Patient
+pnumber   pfirstname	psecondname	address		phoneno	     dob	sex	maritalStatus	regDate	     nextOfKin  clinicNumber	
+5001	"Selena"	"Rodriguez"	"001 Green Lane"6661111	"1982-03-20"	"Female""Married"	"2021-01-10"	9001	8003
+5002	"Daniel"	"Vettori"	"66 Avenue St"	6662222	"1979-11-15"	"Male"	"Single"	"2021-02-05"	9002	8004
+5003	"Anna"		"Wilson"	"666 Cedar Ave"	6663333	"1990-07-08"	"Female""Married"	"2021-03-15"	9003	8005
+5004	"William"	"Deniro"	"911 Franksten Rd"6664444"1985-06-18"	"Male"	"Single"	"2021-04-20"	9004	8006
+5005	"Sandra"	"Davis"		"892 Willow Way"6665555	"1976-09-25"	"Female""Married"	"2021-05-25"	9005	8007
+5006	"Benjamin"	"Pavard"	"561 Redwood Dr"6666666	"1988-02-12"	"Male"	"Single"	"2021-06-30"	9006	
+5007	"Mia"		"Kallis"	"890 Willow Way"6667777	"1995-04-02"	"Female""Married"	"2021-07-05"	9007	
+5008	"Chris"		"Harris"	"345 Magnolia Rd"6668888"1980-12-07"	"Male"	"Single"	"2021-08-10"	9008	
+5009	"Izza"		"Clark"		"910 Franksten Rd"6669999"1992-10-14"	"Female""Married"	"2021-09-15"	9009	
+5010	"Morgan"	"Turner"	"092 Cedar Ln"	6661010	"1977-01-30"	"Male"	"Single"	"2021-10-20"	9010	8003
+5011	"Anabella"	"Lewis"		"113 Elm Rd"	6662020	"1984-08-03"	"Female""Married"	"2021-11-25"		
+5012	"George"	"Parker"	"321 Birch Ave"	6663030	"1987-05-11"	"Male"	"Single"	"2021-12-30"		
+5013	"Elsa"		"Miller"	"871 Willow Way"6664040	"1994-03-09"	"Female""Married"	"2022-01-10"		
+5014	"Trevor"	"Young"		"1901 Pine Dr"	6665050	"1981-07-22"	"Male"	"Single"	"2022-02-05"		
+5015	"Zeta"		"Hall"		"5671 Pine Dr"	6666060	"1998-06-14"	"Female""Married"	"2022-03-15"		8007
+5016	"Marcus"	"Adams"		"345 Willow Ave"6667070	"1986-09-18"	"Male"	"Single"	"2022-04-20"		
+5017	"Catherine"	"Wright"	"890 Cedar Dr"	6668080	"1991-01-27"	"Female""Married"	"2022-05-25"		
+5018	"Paul"		"Baker"		"678 Magnolia St"6669090"1983-11-02"	"Male"	"Single"	"2022-06-30"		8001
+5019	"Hina"		"Scott"		"123 Maple Dr"	6661011	"1993-04-05"	"Female""Married"	"2022-07-05"		8001
+5020	"Miguel"	"Green"		"981 Birch Ln"	6662022	"1978-12-16"	"Male"	"Single"	"2022-08-10"		8002
+5021	"Sophia"	"Carter"	"789 Peers Rd"	6663033	"1996-03-27"	"Female""Married"	"2022-09-15"		8006
+5022	"Hank"		"Stewart"	"890 Pine Ave"	6664044	"1989-02-08"	"Male"	"Single"	"2022-10-20"		8007
+5023	"Dana"		"Mitchell"	"234 Willow Dr"	6665055	"1980-10-31"	"Female""Married"	"2022-11-25"		
+5024	"Albert"	"Turner"	"110 Cedar Ave"	6666066	"1997-07-12"	"Male"	"Single"	"2022-12-30"		
+5025	"Jemima"	"Parker"	"444 Elm St"	6667077	"1985-05-24"	"Female""Married"	"2023-01-10"		
+5026	"Alaister"	"Cook"		"222 Redwood Rd"6668088	"1990-09-03"	"Male"	"Single"	"2023-02-05"		
+5027	"Lily"		"Ward"		"999 Magnolia Ln"6669099"1982-12-14"	"Female""Married"	"2023-03-15"		
+5028	"Lidle"		"Turner"	"011 Oak Ave"	6661012	"1976-04-17"	"Male"	"Single"	"2023-04-20"		
+5029	"Lina"		"Gray"		"345 Cedar Rd"	6662023	"1992-08-19"	"Female""Married"	"2023-05-25"		
+5030	"Alexander"	"Zverev"	"541 Elm Ln"	6663033	"1987-02-22"	"Male"	"Single"	"2023-06-30"		
+5031	"Zoey"		"Parker"	"672 Pine Rd"	6664045	"1984-06-30"	"Female""Married"	"2023-07-05"		
+5032	"Carlos"	"Perez"		"011 Maple St"	6665055	"1991-03-12"	"Male"	"Single"	"2023-08-10"		
+5033	"Abigail"	"Walker"	"224 Cedar Ave"	6666066	"1989-05-08"	"Female""Married"	"2023-09-15"		
+----------------------------------------------------
+NextOfKin
+nokId	fullName	relationship	address		phoneNo
+9001	"Alice Johnson"	"Spouse"	"193 Elm St"	79061001
+9002	"Bob Smith"	"Child"		"971 Oak St"	79062002
+9003	"Charlie Brown"	"Sibling"	"672 Cedar St"	79063003
+9004	"David Lee"	"Child"		"781 Birch St"	79064004
+9005	"Eve Wilson"	"Spouse"	"441 Pine St"	79065005
+9006	"Frank Turner"	"Parent"	"784 Spruce St"	79066006
+9007	"Grace Clark"	"Sibling"	"341 Redwood St"79067007
+9008	"Hank Taylor"	"Child"		"092 Sequoia St"79068008
+9009	"Isabel White"	"Spouse"	"702 Maple St"	79069009
+9010	"Jackie Smith"	"Spouse"	"862 Main St"	79061010
+----------------------------------------------------
+LocalDoctor
+clNumber fullName	address		phoneNo
+8001	"Dr. Steve"	"1023 Elm St"	98611001
+8002	"Dr. Clarke"	"4916 Oak St"	98612002
+8003	"Dr. Hess"	"7812 Cedar St"	98613003
+8004	"Dr. Sara"	"0909 Birch St"	98614004
+8005	"Dr. Misa"	"5616 Pine St"	98615005
+8006	"Dr. Fidel"	"9081 Spruce St"98616006
+8007	"Dr. John"	"9091 Redwood St"98617007
+----------------------------------------------------
+Supplier
+splrid	   name			address	      telephone	fax
+7001	"US Medical Supplies"	"871 Jump St"	1891001	1891002
+7002	"Texas Pharmaceuticals"	"8654 Main Rd"	1892001	1892002
+7003	"Healthy Supplies"	"789 Pico St"	1893001	1893002
+7004	"NewYork Pharmacy"	"5651 Blue Rd"	1894001	1894002
+7005	"HealthBridge"		"7673 Gulberg St"1895001 1895002
+7006	"New Jersey Suppliers"	"989 Cina St"	1896001	1896002
+7007"Hope Medicinal Distributors""091 Lockwood St"1897001 1897002
+----------------------------------------------------
+Surgical_nonSurgicalSupplies
+itemNo    itemName		description		qty reorderlvl cost/unit supplierNumber
+3001	"Surgical Scissors"	"For surgeries"		100	20	26	7001
+3002	"Sterile Dressings"	"For surgical use"	200	50	12	7002
+3003	"Syringes"		"For medical procedures"300	30	6	7003
+3004	"Surgical Gloves"	"For hand protection"	150	40	9	7004
+3005	"Scalpels"	   For precision surgical cuts"	80	15	10	7005
+3006	"Surgical Gowns"	"For hygiene"		120	25	18	7006
+3007	"Needles"		"For medical injections"250	35	7	7007
+3008	"Surgical Masks"	"For infection control"	300	50	4	7001
+3009	"Surgical Drapes"	"For operating rooms"	100	20	15	7002
+3010	"Surgical Sutures"	"For wound closure"	75	15	11	7003
+3011	"Plastic Bags"		"For waste disposal"	500	100	1	7001
+3012	"Gloves"		"For general use"	400	80	5	7002
+3013	"Aprons"		"For protection"	300	60	2	7003
+3014	"Face Masks"		"For personal use"	600	120	2	7001
+3015	"Cotton Swabs"		"For medical applications"800	160	4	7005
+3016	"Hand Sanitizer"	"For hand hygiene"	200	40	6	7007
+3017	"Tissues"		"For patient use"	1000	200	1	7007
+3018	"Wound Dressings"	"For minor injuries"	400	80	3	7001
+3019	"Bandages"		"For wound covering"	600	120	1	7002
+3020	"Cotton Balls"	"For medical and cosmetic use"	700	140	2	7004
+----------------------------------------------------
+PharmaceuticalSupplies
+drugNo	drugName	description		dosage	moa	qty reorderlvl cost/unit supplierNumber
+4001	"Aspirin"	"Fever reducer"	"	500mg"	"Oral"	200	50	3	7001
+4002	"Ibuprofen"	"For cough and flu"	"200mg"	"Oral"	300	60	4	7002
+4003	"Amoxicillin"	"For bacterial infections""500mg""IV"	150	30	7	7003
+4004	"Ciprofloxacin"	"For stomach infection"	"250mg"	"Oral"	100	20	9	7004
+4005	"Lisinopril"	"For Blood pressure"	"10mg"	"Oral"	120	24	3	7005
+4006	"Metformin"	"For Diabetes"	     "500mg"" Injection"180	36	2	7006
+4007	"Atorvastatin"	"For Cholesterol"	"20mg"	"Oral"	90	18	6	7007
+4008	"Omeprazole"	"For Platelets"		"40mg"	"IV"	160	32	5	7001
+4009	"Ranitidine"	"For acidity"		"150mg"	"Oral"	220	44	2	7002
+4010	"Diazepam"	"For Anxiety"		"5mg"	"Oral"	80	16	7	7003
+4011	"Paracetamol"	"For Pain relief"	"500mg"	"IV"	250	50	1	7004
+4012	"Simvastatin"	"For Muscle Pain"	"20mg"	"Oral"	100	20	4	7005
+4013	"Warfarin"	"For Heart diseases"	"2mg"	"Oral"	120	24	5	7006
+4014	"Levothyroxine"	"For throat"		"100mcg""Oral"	140	28	2	7007
+4015	"Cetirizine"	"For allergies"	"	10mg"	"IV"	180	36	3	7001
+----------------------------------------------------
+Appointment
+appNo	appDate		appTime	  examinRoom	wardRec ptntNo	consultantStaffId
+9101	"2023-09-01"	"09:00:00"	"A-2"	2007	5001	10014
+9102	"2023-09-01"	"10:30:00"	"B-2"	2007	5002	10014
+9103	"2023-09-01"	"12:15:00"	"C-2"	2007	5003	10014
+9104	"2023-09-01"	"12:45:00"	"D-2"	2007	5004	10014
+9105	"2023-09-01"	"13:30:00"	"E-2"	2007	5005	10014
+9106	"2023-09-01"	"14:45:00"	"F-2"	2007	5006	10014
+9107	"2023-09-01"	"15:00:00"	"G-2"	2007	5007	10014
+9108	"2023-09-02"	"08:30:00"	"H-2"	2011	5008	10029
+9109	"2023-09-02"	"09:00:00"	"I-2"	2010	5009	10029
+9110	"2023-09-02"	"10:15:00"	"J-2"	2010	5010	10029
+9111	"2023-09-02"	"11:30:00"	"A-2"	2011	5011	10029
+9112	"2023-09-02"	"12:45:00"	"B-2"	2010	5012	10029
+9113	"2023-09-02"	"13:00:00"	"C-2"	2018	5013	10029
+9114	"2023-09-03"	"08:30:00"	"D-2"	2018	5014	10014
+9115	"2023-09-03"	"09:00:00"	"E-2"	2018	5015	10014
+9116	"2023-09-03"	"11:15:00"	"F-2"	2018	5016	10014
+9117	"2023-09-03"	"12:45:00"	"G-2"	2001	5017	10014
+9118	"2023-09-03"	"14:45:00"	"H-2"	2018	5018	10014
+9119	"2023-09-03"	"15:30:00"	"I-2"	2002	5019	10014
+9120	"2023-09-04"	"09:45:00"	"J-2"	2003	5020	10029
+9121	"2023-09-04"	"11:00:00"	"A-2"	2004	5021	10029
+9122	"2023-09-04"	"12:30:00"	"B-2"	2005	5022	10029
+9123	"2023-09-04"	"13:15:00"	"C-2"	2006	5023	10029
+9124	"2023-09-04"	"14:45:00"	"D-2"	2007	5024	10029
+9125	"2023-09-04"	"15:00:00"	"E-2"	2008	5025	10029
+9126	"2023-09-05"	"07:15:00"	"F-2"	2009	5026	10014
+9127	"2023-09-05"	"08:20:00"	"G-2"	2010	5027	10014
+9128	"2023-09-05"	"10:30:00"	"H-2"	2011	5028	10014
+9129	"2023-09-05"	"12:45:00"	"I-2"	2012	5029	10014
+9130	"2023-09-05"	"13:00:00"	"J-2"	2013	5030	10014
+9131	"2023-09-05"	"14:30:00"	"A-2"	2014	5031	10014
+9132	"2023-09-05"	"16:45:00"	"B-2"	2015	5032	10029
+9133	"2023-09-05"	"18:00:00"	"C-2"	2016	5033	10029
+--------------------------------------------------------
+WaitingList
+waitId inptntNo wardNo datePlacedinList expectedStay
+9201	5006	2007	"2023-09-01"	"7 days"
+9202	5007	2007	"2023-09-01"	"5 days"
+9203	5003	2007	"2023-09-04"	"10 days"
+-------------------------------------------------------
+AdmissionList
+admId inptntNo	wardNo datePlacedinWard expectedLDate actualLDate     bedNo	
+9401	5001	2001	"2023-09-01"	"2023-09-07"	"2023-09-06"	1
+9402	5002	2007	"2023-09-01"	"2023-09-07"	"2023-09-09"	2
+9403	5003	2007	"2023-09-01"	"2023-09-09"			3
+9404	5004	2007	"2023-09-01"	"2023-09-10"			4
+9405	5005	2007	"2023-09-01"	"2023-09-11"	"2023-09-11"	5
+9406	5006	2007	"2023-09-06"	"2023-09-12"			1
+9407	5007	2007	"2023-09-09"	"2023-09-15"			2
+9408	5008	2011	"2023-09-02"	"2023-09-10"			1
+9409	5009	2010	"2023-09-02"	"2023-09-10"	"2023-09-12"	1
+9410	5010	2010	"2023-09-02"	"2023-09-10"	"2023-09-12"	2
+9411	5011	2011	"2023-09-02"	"2023-09-10"	"2023-09-11"	2
+9412	5012	2010	"2023-09-02"	"2023-09-10"	"2023-09-12"	3
+9413	5017	2001	"2023-09-03"	"2023-09-11"			1
+9414	5019	2002	"2023-09-03"	"2023-09-11"			1
+9415	5020	2003	"2023-09-04"	"2023-09-11"	"2023-09-12"	1
+9416	5021	2004	"2023-09-04"	"2023-09-11"	"2023-09-12"	1
+9417	5022	2005	"2023-09-04"	"2023-09-11"			1
+9418	5023	2006	"2023-09-04"	"2023-09-12"			1
+9419	5024	2007	"2023-09-04"	"2023-09-12"			3
+9420	5025	2008	"2023-09-04"	"2023-09-12"	"2023-09-12"	1
+9421	5026	2009	"2023-09-05"	"2023-09-12"	"2023-09-12"	1
+9422	5027	2010	"2023-09-05"	"2023-09-12"	"2023-09-12"	4
+9423	5028	2011	"2023-09-05"	"2023-09-13"			3
+9424	5029	2012	"2023-09-05"	"2023-09-13"			1
+9425	5030	2013	"2023-09-05"	"2023-09-13"	"2023-09-12"	1
+9426	5031	2014	"2023-09-05"	"2023-09-13"	"2023-09-12"	1
+9427	5032	2015	"2023-09-05"	"2023-09-13"	"2023-09-12"	1
+9428	5033	2016	"2023-09-05"	"2023-09-14"			1
+------------------------------------------------
+OutPatientRecord
+recId	appDate		appTime		patientNo
+9301	"2023-09-02"	"14:00:00"	5013
+9302	"2023-09-03"	"10:30:00"	5014
+9303	"2023-09-03"	"11:15:00"	5015
+9304	"2023-09-03"	"12:45:00"	5016
+9305	"2023-09-03"	"16:30:00"	5018
+------------------------------------------------
+PatientMedication
+medId patientno	drugNo	startDate	finishDate
+9501	5001	4001	"2023-09-01"	"2023-09-03"
+9502	5001	4002	"2023-09-01"	"2023-09-03"
+9503	5001	4003	"2023-09-01"	"2023-09-03"
+9504	5002	4004	"2023-09-01"	"2023-09-03"
+9505	5002	4005	"2023-09-01"	"2023-09-03"
+9506	5003	4006	"2023-09-01"	"2023-09-03"
+9507	5003	4007	"2023-09-01"	"2023-09-03"
+9508	5003	4008	"2023-09-01"	"2023-09-03"
+9509	5004	4009	"2023-09-01"	"2023-09-03"
+9510	5004	4010	"2023-09-01"	"2023-09-03"
+9511	5004	4011	"2023-09-01"	"2023-09-03"
+9512	5005	4012	"2023-09-01"	"2023-09-03"
+9513	5005	4013	"2023-09-01"	"2023-09-03"
+9514	5005	4014	"2023-09-01"	"2023-09-03"
+9515	5006	4015	"2023-09-06"	"2023-09-12"
+9516	5006	4001	"2023-09-06"	"2023-09-12"
+9517	5007	4002	"2023-09-09"	"2023-09-13"
+9518	5007	4003	"2023-09-09"	"2023-09-15"
+9519	5007	4004	"2023-09-10"	"2023-09-15"
+9520	5011	4005	"2023-09-02"	"2023-09-04"
+9521	5011	4006	"2023-09-02"	"2023-09-04"
+9522	5011	4007	"2023-09-02"	"2023-09-04"
+9523	5020	4008	"2023-09-04"	"2023-09-08"
+9524	5020	4009	"2023-09-04"	"2023-09-08"
+9525	5020	4010	"2023-09-04"	"2023-09-08"
+9526	5029	4011	"2023-09-05"	"2023-09-08"
+9527	5029	4012	"2023-09-05"	"2023-09-08"
+9528	5029	4013	"2023-09-05"	"2023-09-08"
+9529	5030	4014	"2023-09-05"	"2023-09-08"
+--------------------------------------------
+WardRequisition
+reqNo chgNurseid wardNo itemNo  drugNo	qty	dateordered	datedelivered
+9601	10002	2001	3001		50	"2023-09-20"	"2023-09-21"
+9602	10004	2002		4001	30	"2023-09-21"	"2023-09-22"
+9603	10005	2003	3002		20	"2023-09-22"	"2023-09-23"
+9604	10006	2004		4002	15	"2023-09-23"	"2023-09-24"
+9605	10007	2005	3003		40	"2023-09-24"	"2023-09-25"
+9606	10010	2006		4003	25	"2023-09-25"	"2023-09-26"
+9607	10011	2007	3004		10	"2023-09-26"	"2023-09-27"
+9608	10013	2008		4004	35	"2023-09-27"	"2023-09-28"
+9609	10016	2009	3005		18	"2023-09-28"	"2023-09-29"
+9610	10019	2010		4005	22	"2023-09-29"	"2023-09-30"
+9611	10019	2010	3001		50	"2023-09-20"	"2023-09-21"
+9612	10019	2010	3002		50	"2023-09-20"	"2023-09-21"
+9613	10019	2010	3003		50	"2023-09-20"	"2023-09-21"
+9614	10019	2010	3004		50	"2023-09-20"	"2023-09-21"
+9615	10019	2010		4003	50	"2023-09-20"	"2023-09-21"

@@ -1,0 +1,95 @@
+--b
+snumber   sfirstname ssecondname        saddress	sphoneno	   dob            sex    NIN	contractID
+10002	"Jeda"		"Pinkett"	"456 Elve St"	32178343	"1990-03-22"	"Female"12302	1002
+10020	"Christina"	"Harris"	"543 Cedar St"	3761098		"1992-06-02"	"Female"1230020	1020
+10035	"Stevie"	"Lewis"		"881 John St"	3333210		"2001-11-14"	"Male"	1230035	1035
+10012	"Kathie"	"George"	"901 Vine St"	32178398	"1993-10-04"	"Female"21012	1012
+10005	"Dave"		"White"		"891 Green St"	32178332	"1988-11-30"	"Male"	12305	1005
+10008	"Martina"	"Whitable"	"1879 Spruce St"3278398		"1983-12-25"	"Female"12308	1008
+10031	"Dave"		"Halpert"	"811 Violin St"	3335876		"1991-04-11"	"Male"	1230031	1031
+10003	"Mitchel"	"Faroe"		"991 Blue St"	32178390	"1982-07-10"	"Male"	1230003	1003
+10025	"Will"		"Wright"	"567 Sequoia St"33339876	"1995-01-07"	"Male"	1230025	1025
+10018	"Selena"	"Walker"	"090 High St"	30176376	"1986-02-10"	"Female"120018	1018
+10016	"Healy"		"Thomas"	"9001 Avenue St"3017097		"1984-12-17"	"Female"123016	1016
+10011	"Dan"		"Hathaway"	"671 Kaizer St"	32178309	"1981-08-22"	"Male"	1211	1011
+10017	"Sam"		"Gonzalez"	"345 Mayfair St"3017431		"2002-01-28"	"Male"	123017	1017
+10023	"Michael"	"Scarn"		"433 Elm St"	3335098		"1997-08-05"	"Male"	1230023	1023
+10001	"Johnathan"	"Wick"		"1190 Fox St"	32178367	"1985-01-15"	"Male"	12301	1001
+10007	"Bob"		"Vance"		"8971 Hank St"	32178310	"1979-04-07"	"Male"	12307	1007
+10004	"Emilia"	"Blunt"		"612 Frank St"	32178378	"1995-05-18"	"Female"12304	1004
+10010	"Jennine"	"Fox"		"091 Pequoia St"32178376	"1994-06-12"	"Female"12091	1010
+10019	"Matthew"	"Hopper"	"234 Down St"	3017609		"1999-04-20"	"Male"	1230019	1019
+10014	"Nina"		"William"	"765 Moth St"	301760		"1987-05-28"	"Female"123014	1014
+10036	"Denzel"	"Creed"		"524 Halley St"	31458367	"1975-02-15"	"Male"	123036	1036
+--------------------------------------------------------------------
+--c
+wardNo	wardName	snumber sfirstname 	ssecondname        saddress	sphoneno	   dob            sex    NIN	contractID
+2001	"Orthopaedic"	10002	"Jeda"		"Pinkett"	"456 Elve St"	32178343	"1990-03-22"	"Female"12302	1002
+2001	"Orthopaedic"	10003	"Mitchel"	"Faroe"		"991 Blue St"	32178390	"1982-07-10"	"Male"	1230003	1003
+2002	"Cardiology"	10004	"Emilia"	"Blunt"		"612 Frank St"	32178378	"1995-05-18"	"Female"12304	1004
+2003	"Neurology"	10005	"Dave"		"White"		"891 Green St"	32178332	"1988-11-30"	"Male"	12305	1005
+2004	"Pediatrics"	10006	"Diana"		"Lei"		"432 Faroe Rd"	32178389	"1992-09-14"	"Female"12306	1006
+2005	"Geriatrics"	10007	"Bob"		"Vance"		"8971 Hank St"	32178310	"1979-04-07"	"Male"	12307	1007
+2008	"Surgery"	10008	"Martina"	"Whitable"	"1879 Spruce St"3278398		"1983-12-25"	"Female"12308	1008
+2010	"Intensive Care"10009	"Will"		"Ferrel"	"651 Greenwood St"32178321	"1998-02-03"	"Male"	12309	1009
+2006	"Oncology"	10010	"Jennine"	"Fox"		"091 Pequoia St"32178376	"1994-06-12"	"Female"12091	1010
+2007	"Psychiatry"	10011	"Dan"		"Hathaway"	"671 Kaizer St"	32178309	"1981-08-22"	"Male"	1211	1011
+2008	"Surgery"	10013	"Gregory"	"Lewis"		"234 Pirch St"	30170987	"1997-03-15"	"Male"	123013	1013
+2018 "Out Patient Clinic"10015  "Mark"		"Black"		"235 Main St"	30176098	"1991-09-06"	"Male"	123015	1015
+2009	"Maternity"	10016	"Healy"		"Thomas"	"9001 Avenue St"3017097		"1984-12-17"	"Female"123016	1016
+2018"Out Patient Clinic"10017	"Sam"		"Gonzalez"	"345 Mayfair St"3017431		"2002-01-28"	"Male"	123017	1017
+2018"Out Patient Clinic"10018	"Selena"	"Walker"	"090 High St"	30176376	"1986-02-10"	"Female"120018	1018
+2010	"Intensive Care"10019	"Matthew"	"Hopper"	"234 Down St"	3017609		"1999-04-20"	"Male"	1230019	1019
+2008	"Surgery"	10020	"Christina"	"Harris"	"543 Cedar St"	3761098		"1992-06-02"	"Female"1230020	1020
+2008	"Surgery"	10021	"Kevin"		"Vance"		"765 Cedar St"	30176987	"1980-10-09"	"Male"	1230021	1021
+2011	"Emergency"	10022	"Nathie"	"Bough"		"9871 Pine St"	3017210		"1993-12-12"	"Female"1230022	1022
+2011	"Emergency"	10023	"Michael"	"Scarn"		"433 Elm St"	3335098		"1997-08-05"	"Male"	1230023	1023
+2011	"Emergency"	10024	"Kelly"		"King"		"890 Cedar St"	33354321	"1989-11-19"	"Female"1230024	1024
+2012	"ENT"		10025	"Will"		"Wright"	"567 Sequoia St"33339876	"1995-01-07"	"Male"	1230025	1025
+2013	"Urology"	10026	"Candice"	"Howard"	"1203 Cedar St"	33352109	"1982-03-29"	"Female"1230026	1026
+2014	"Gynecology"	10027	"Haaland"	"Garfield"	"8901 Oak St"	33354098	"1998-07-14"	"Male"	1230027	1027
+2014	"Gynecology"	10028	"Patricia"	"Bullock"	"7635 Birch St"	3335987		"1984-09-01"	"Female"1230028	1028
+2015	"Dermatology"	10030	"Mikasa"	"Anderson"	"0901 Kilm St"	33331098	"1987-12-30"	"Female"1230030	1030
+2016	"Respiratory"	10031	"Dave"		"Halpert"	"811 Violin St"	3335876		"1991-04-11"	"Male"	1230031	1031
+2016	"Respiratory"	10032	"Pamela"	"Shrute"	"917 Cedar St"	3332109		"1983-06-25"	"Female"1230032	1032
+2017	"Ophthalmology"	10033	"Cetha"		"White"		"3901 Young St"	3331098		"1999-02-18"	"Male"	1230033	1033
+2001	"Orthopaedic"	10034	"Vanna"		"Creed"		"1273 Old St"	3330987		"1990-08-03"	"Female"1230034	1034
+2018"Out Patient Clinic"10035	"Stevie"	"Lewis"		"881 John St"	3333210		"2001-11-14"	"Male"	1230035	1035
+2007	"Psychiatry"	10036	"Denzel"	"Creed"		"524 Halley St"	31458367	"1975-02-15"	"Male"	123036	1036
+----------------------------------------------------
+--f
+pnumber   pfirstname	psecondname	address			phoneno	     dob	sex	maritalStatus	regDate	     nextOfKin  	
+5018	"Paul"		"Baker"		"678 Magnolia St"	6669090	"1983-11-02"	"Male"	"Single"	"2022-06-30"	8001
+5013	"Elsa"		"Miller"	"871 Willow Way"	6664040	"1994-03-09"	"Female""Married"	"2022-01-10"	
+5014	"Trevor"	"Young"		"1901 Pine Dr"		6665050	"1981-07-22"	"Male"	"Single"	"2022-02-05"	
+5016	"Marcus"	"Adams"		"345 Willow Ave"	6667070	"1986-09-18"	"Male"	"Single"	"2022-04-20"	
+5015	"Zeta"		"Hall"		"5671 Pine Dr"		6666060	"1998-06-14"	"Female""Married"	"2022-03-15"	8007
+-----------------------------------------------------
+--h
+pnumber   pfirstname	psecondname	address			phoneno	     dob	sex	maritalStatus	regDate	     nextOfKin  clinicNumber	
+5003	  "Anna"	"Wilson"	"666 Cedar Ave"		6663333	 "1990-07-08"	"Female""Married"	"2021-03-15"	9003	8005
+5007	   "Mia"	"Kallis"	"890 Willow Way"	6667777	 "1995-04-02"	"Female""Married"	"2021-07-05"	9007	
+5006	  "Benjamin"	"Pavard"	"561 Redwood Dr"	6666666	 "1988-02-12"	"Male"	"Single"	"2021-06-30"	9006	
+5004 	  "William"	"Deniro"	"911 Franksten Rd"	6664444	 "1985-06-18"	"Male"	"Single"	"2021-04-20"	9004	8006
+5024	   "Albert"	"Turner"	"110 Cedar Ave"		6666066	 "1997-07-12"	"Male"	"Single"	"2022-12-30"		
+-----------------------------------------------------
+--i
+pnumber   pfirstname	psecondname	address			phoneno	     dob	sex	maritalStatus	regDate	     nextOfKin  clinicNumber	
+5003	  "Anna"	"Wilson"	"666 Cedar Ave"		6663333	 "1990-07-08"	"Female""Married"	"2021-03-15"	9003	8005
+5007	   "Mia"	"Kallis"	"890 Willow Way"	6667777	 "1995-04-02"	"Female""Married"	"2021-07-05"	9007	
+5006	  "Benjamin"	"Pavard"	"561 Redwood Dr"	6666666	 "1988-02-12"	"Male"	"Single"	"2021-06-30"	9006	
+-----------------------------------------------------
+--k
+medid	startdate	finishdate	drugname
+9501	"2023-09-01"	"2023-09-03"	"Aspirin"
+9502	"2023-09-01"	"2023-09-03"	"Ibuprofen"
+9503	"2023-09-01"	"2023-09-03"	"Amoxicillin"
+-----------------------------------------------------
+--n
+reqno	itemname	 drugname	quantityrequired	dateordered	datedelivered
+9610			"Lisinopril"	    22			"2023-09-29"	"2023-09-30"
+9611	"Surgical Scissors" 		    50			"2023-09-20"	"2023-09-21"
+9612	"Sterile Dressings"		    50			"2023-09-20"	"2023-09-21"
+9613	"Syringes"	 		    50			"2023-09-20"	"2023-09-21"
+9614	"Surgical Gloves"		    50			"2023-09-20"	"2023-09-21"
+9615			"Amoxicillin"	    50			"2023-09-20"	"2023-09-21"
